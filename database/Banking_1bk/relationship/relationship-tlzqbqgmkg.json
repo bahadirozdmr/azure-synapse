@@ -1,0 +1,26 @@
+{
+	"name": "relationship-tlzqbqgmkg",
+	"properties": {
+		"Name": "relationship-tlzqbqgmkg",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "Banking_1bk"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "Channel",
+		"ToTableName": "Transaction",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "ChannelId",
+				"ToColumnName": "PurchasingChannelId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"Channel.cdm.json/Channel\",\"toEntity\":\"Transaction.cdm.json/Transaction\",\"joinPairs\":[{\"fromAttribute\":\"ChannelId\",\"toAttribute\":\"PurchasingChannelId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}
